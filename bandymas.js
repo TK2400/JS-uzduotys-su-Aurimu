@@ -1,6 +1,9 @@
 // deklaruoti biudzeta
+
 //deklaruoti kaina/
+
 //jeigu turi pakankamai, pasakayti, kad ok, galiu pirkti
+// hello git hub
 
 const myBudget = 100
 const prekesKaina =101
