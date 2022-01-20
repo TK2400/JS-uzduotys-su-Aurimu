@@ -5,10 +5,14 @@
 //jeigu turi pakankamai, pasakayti, kad ok, galiu pirkti
 // hello git hub
 
-const myBudget = 100
+const myBudget = 120
 const prekesKaina =101
 
-if (myBudget =)
+if (myBudget <= prekesKaina) {
+    alert ("neuztenka pinigu")
+} else {
+    alert ("valio, galiu pirkti")
+}
 
 
 
