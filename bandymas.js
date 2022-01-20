@@ -5,12 +5,17 @@
 //jeigu turi pakankamai, pasakayti, kad ok, galiu pirkti
 // hello git hub
 
-const myBudget = prompt("koks biudzetas")
+
+
+const myBudget = Number(prompt("koks biudzetas"))
 const prekesKaina = 103
+    // NaN - ne skaicius
+
+
 
 if (myBudget > prekesKaina) {
     alert("valio, galiu pirkti")
-} else if (myBudget == prekesKaina) {
+} else if (myBudget === prekesKaina) {
     alert("kaip tycia uztenka lygiai")
 } else {
     alert("reikia dar pataupyti")
