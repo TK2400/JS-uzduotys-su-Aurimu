@@ -5,17 +5,24 @@
 //jeigu turi pakankamai, pasakayti, kad ok, galiu pirkti
 // hello git hub
 
-const myBudget = 120
-const prekesKaina =101
+const myBudget = prompt("koks biudzetas")
+const prekesKaina = 103
 
-if (myBudget <= prekesKaina) {
-    alert ("neuztenka pinigu")
+if (myBudget > prekesKaina) {
+    alert("valio, galiu pirkti")
+} else if (myBudget == prekesKaina) {
+    alert("kaip tycia uztenka lygiai")
 } else {
-    alert ("valio, galiu pirkti")
+    alert("reikia dar pataupyti")
 }
 
+console.log("programa baigta")
 
 
+
+// const vardas = prompt("labas, koks tavo vardas") // browseris klausia ir ledizai irasyti
+// console.log(typeof vardas)
+// prompt visada grazina string 
 
 
 
@@ -55,4 +62,3 @@ if (myBudget <= prekesKaina) {
 // } else if (myAge >= 18 && myAge <= 99) {
 //     alert("Adult")
 // }
-
