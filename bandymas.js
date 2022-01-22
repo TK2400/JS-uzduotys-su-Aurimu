@@ -8,6 +8,7 @@
 
 
 const myBudget = Number(prompt("koks biudzetas"))
+console.log(myBudget)
 const prekesKaina = 103
     // NaN - ne skaicius
 
