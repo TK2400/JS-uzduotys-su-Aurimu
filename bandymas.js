@@ -1,13 +1,33 @@
-function vardoPavardesgeneratorius(name, surname) {
-    return name + ' ' + surname
+function min(a, b) {
+    if (a < b) {
+        return a
+    }
+    return b
 }
 
-const manoPilnasVardas = vardoPavardesgeneratorius('john', 'smith')
-const tomoPilnasVardas = vardoPavardesgeneratorius('tomas', 'kalvis')
 
-console.log(manoPilnasVardas)
-console.log(tomoPilnasVardas)
 
+const atsakymas = min(10, 11)
+console.log(atsakymas)
+
+
+
+
+
+// function vardoPavardesgeneratorius(name, surname) {
+//     if (name === undefined) {
+//         return "vardas nebuvo pateiktas"
+//     }
+//     return name + ' ' + surname // ties pirmu paleistu return funkcija pasibaigia.
+// }
+
+// const manoPilnasVardas = vardoPavardesgeneratorius('john', 'smith')
+// const tomoPilnasVardas = vardoPavardesgeneratorius('tomas', 'kalvis')
+// const nepateiktasVardas = vardoPavardesgeneratorius()
+
+// console.log(manoPilnasVardas)
+// console.log(tomoPilnasVardas)
+// console.log(nepateiktasVardas)
 
 // window.alert();
 // window.console.log()
