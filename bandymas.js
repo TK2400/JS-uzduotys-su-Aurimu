@@ -1,14 +1,30 @@
-function min(a, b) {
-    if (a < b) {
-        return a
-    }
-    return b
+//papildyti koda
+//  - priimtu parametra pavadinimu "word"
+//   - pakviesti funkcija su sugalvotu zodziu
+//    - alert su paramteru
+
+function sayHi(word) {
+    alert(word)
 }
 
+sayHi("laba diena")
 
 
-const atsakymas = min(10, 11)
-console.log(atsakymas)
+
+
+
+// trecia uzduotis
+// function min(a, b) {
+//     if (a < b) {
+//         return a
+//     }
+//     return b
+// }
+
+
+
+// const atsakymas = min(10, 11)
+// console.log(atsakymas)
 
 
 
