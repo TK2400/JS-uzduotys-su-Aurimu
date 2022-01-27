@@ -33,19 +33,33 @@ sukurti cikla, kuris:
 // alert("jus genijus")
 
 const skaicius = 10
-    // let spejimas = 2
 let spejimas = prompt("atspek skaiciu: ")
 
 while (spejimas != skaicius) {
-    alert("spekite dar karta")
-        //prompt again
+    if (spejimas > 0 && spejimas < 10) {
+        alert("salia...")
+    } else if (spejimas > 10 && spejimas < 20) {
+        alert("salia...")
+    } else {
+        alert("meginkite dar kart.... ")
+    }
     spejimas = prompt("atspek skaiciu: ")
-
 }
+
+
+
 
 alert("jus genijus")
 
+/// arba galima padaryti taip
 
+// const skaicius = 10
+// let spejimas = 0
 
-//   for (let i = 0; i < cars.length; i++) {
-//     text += cars[i] + "<br>";
+// do {
+//     spejimas = prompt("atspek skaiciu: ")
+// } while (spejimas != skaicius);
+
+// alert("jus genijus")
+
+/* alertinti ar pe rzemas, ar per aukstai*/
