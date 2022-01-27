@@ -1,20 +1,51 @@
-// function dviejuSkaiciuSuma(a, b) {
-//     return a + b
+/* 1-a uzduotis deklaruojam 2 kintamuosius
+ - norimas ciklu skaicius
+  - ciklu skaicius
+
+  sukurti "while" cikla
+   - kiekvienas ciklas turi alertinti kelintas jis yra"
+
+   -*/
+
+// const norimasCikluSkaicius = 3
+// let cikluSkaicius = 1
+
+// while (cikluSkaicius < norimasCikluSkaicius) {
+//     alert("ciklo numeris: " + cikluSkaicius)
+//     cikluSkaicius++ //padidinam vienetu
 // }
 
-// const atsakymas = dviejuSkaiciuSuma(15, 16)
-// alert(atsakymas)
+/* 2 uzduotis dekalruoti skaiciu - number
+sukurti cikla, kuris:
+ - papraso vartotojo atspeti skaiciu
+  - kartoti cikla tol, kol atspes
+  pries tai dekalruoti skaiciu
+  */
 
-function farenheitoFormule(a) {
-    return a * 1.8 + 32
+// const verte = 10
+// let atsakymas = Number(prompt("atspek skaiciu: "))
+
+// while (atsakymas != verte) {
+//     alert("spekite is naujo")
+
+// }
+
+// alert("jus genijus")
+
+const skaicius = 10
+    // let spejimas = 2
+let spejimas = prompt("atspek skaiciu: ")
+
+while (spejimas != skaicius) {
+    alert("spekite dar karta")
+        //prompt again
+    spejimas = prompt("atspek skaiciu: ")
+
 }
 
-const ats1 = farenheitoFormule(-5)
-const ats2 = farenheitoFormule(0)
-const ats3 = farenheitoFormule(5)
-const ats4 = farenheitoFormule(10)
+alert("jus genijus")
 
-console.log(ats1)
-console.log(ats2)
-console.log(ats3)
-console.log(ats4)
+
+
+//   for (let i = 0; i < cars.length; i++) {
+//     text += cars[i] + "<br>";
