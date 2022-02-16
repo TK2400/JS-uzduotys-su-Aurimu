@@ -14,29 +14,33 @@ const masyvasSuTarpais = transliacija.split(/\s/gm)
     // const masyvasSuTarpais = transliacija.split(' ')
     // console.log(masyvassu Tarpais)
 
+console.log(masyvasSuTarpais)
+
+const tomoMasyvas = masyvasSuTarpais.split()
+console.log(tomoMasyvas)
 
 
 
 // console.log(masyvasLength)
 
-const svarusMasyvas = []
+// const svarusMasyvas = []
 
-for (let i = 0; i < masyvasSuTarpais.length; i++) {
-    // console.log(masyvasSuTarpais[i])
-    const verte = masyvasSuTarpais[i]
+// for (let i = 0; i < masyvasSuTarpais.length; i++) {
+//     // console.log(masyvasSuTarpais[i])
+//     const verte = masyvasSuTarpais[i]
 
-    if (verte !== '') {
-        console.log(verte)
-    } else {
-        svarusMasyvas.push(verte)
-    }
+//     if (verte === '') {
+//         console.log(verte)
+//     } else {
+//         svarusMasyvas.push(verte)
+//     }
 
-    // arba 
+//     // arba 
 
-    /*if (verte !== '') {
-        svarusMasyvas.push(verte)
-    }*/
+//     /*if (verte !== '') {
+//         svarusMasyvas.push(verte)
+//     }*/
 
-}
+// }
 
-console.log(svarusMasyvas)
+// console.log(svarusMasyvas)
