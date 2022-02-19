@@ -1,8 +1,7 @@
-// Mano spredimas
+// 3-a uzduotis Mano spredimas
 
-const form = document.querySelector('form');
+/*const form = document.querySelector('form');
 const input1 = document.getElementById('input1')
-    // console.log(nameSurname.value)
 const input2 = document.getElementById('input2')
     // const message = document.getElementById('message')
 
@@ -10,16 +9,53 @@ const input2 = document.getElementById('input2')
 const button = document.getElementById('button')
 form.addEventListener('submit', submiting)
 
+const buttonDelete = document.getElementById('delete')
+buttonDelete.addEventListener('click', isvalyti)
+
 function submiting(event) {
     event.preventDefault()
-
     const p = document.createElement('p')
     form.appendChild(p)
     p.innerHTML = Number(input1.value) + Number(input2.value)
     input1.value = ''
     input2.value = ''
-
 }
+
+function isvalyti() {
+    const result = document.querySelector('p')
+    result.innerHTML = ''
+}*/
+
+// Aurimo Kodas
+
+const form = document.querySelector('form');
+const number1 = document.querySelector('input[name="number-one"]');
+const number2 = document.querySelector('input[name="number-two"]');
+
+form.addEventListener('submit', sudetiSkaicius);
+
+function sudetiSkaicius(event) {
+    event.preventDefault();
+
+    const suma = Number(number1.value) + Number(number2.value);
+
+    spaustuve(suma);
+}
+
+function spaustuve(skaicius) {
+    const div = document.querySelector('div');
+
+    div.innerHTML = skaicius;
+}
+
+
+
+
+
+
+
+
+
 
 //Aurimo sprendimas
 /*const form = document.querySelector('form');
