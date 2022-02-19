@@ -1,6 +1,6 @@
 // 3-a uzduotis Mano spredimas
 
-/*const form = document.querySelector('form');
+const form = document.querySelector('form');
 const input1 = document.getElementById('input1')
 const input2 = document.getElementById('input2')
     // const message = document.getElementById('message')
@@ -24,11 +24,11 @@ function submiting(event) {
 function isvalyti() {
     const result = document.querySelector('p')
     result.innerHTML = ''
-}*/
+}
 
 // Aurimo Kodas
 
-const form = document.querySelector('form');
+/*const form = document.querySelector('form');
 const number1 = document.querySelector('input[name="number-one"]');
 const number2 = document.querySelector('input[name="number-two"]');
 
@@ -46,7 +46,7 @@ function spaustuve(skaicius) {
     const div = document.querySelector('div');
 
     div.innerHTML = skaicius;
-}
+}*/
 
 
 
